@@ -1,0 +1,58 @@
+.body {
+  margin: 0%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  display: flex;
+  background-color: blueviolet;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+  background-color: aqua;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(255, 0, 0);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  background-color: brown;
+}
+
+.lang {
+  margin-right: 20px;
+  background-color: chartreuse;
+}
+
+.login {
+  background-color: darkgoldenrod;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  background-color: coral;
+}
+
+.icon {
+  margin: 0px 10px;
+  background-color: rgb(22, 108, 184);
+}
+
+.search {
+  background-color: deeppink;
+}
