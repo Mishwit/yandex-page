@@ -1,0 +1,67 @@
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(255, 0, 0);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  background-color: coral;
+}
+
+.icon {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align: center;
+  line-height: 120px;
+  height: 70px;
+  width: 80px;
+  margin: 0px 10px;
+  background-color: rgb(22, 108, 184);
+}
+
+.games {
+  background-image: url("../icons/games.svg");
+}
+
+.images {
+  background-image: url("../icons/images.svg");
+}
+
+.video {
+  background-image: url("../icons/video.svg");
+}
+
+.mail {
+  background-image: url("../icons/mail.svg");
+}
+
+.maps {
+  background-image: url("../icons/maps.svg");
+}
+
+.appmetrica {
+  background-image: url("../icons/appmetrica.svg");
+}
+
+.translate {
+  background-image: url("../icons/transate.svg");
+}
+
+.browser {
+  background-image: url("../icons/browser.svg");
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  background-color: deeppink;
+}
+
+.form {
+  background-color: rgb(255, 204, 0);
+}

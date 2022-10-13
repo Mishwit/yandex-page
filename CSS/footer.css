@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  background-color: brown;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+}
