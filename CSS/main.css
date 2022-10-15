@@ -2,26 +2,25 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  flex: 1;
-  background-color: rgb(255, 0, 0);
+  height: 401px;
 }
 
 .icons {
   display: flex;
   flex-direction: row;
-  background-color: coral;
+  padding-left: 122px;
 }
 
 .icon {
+  font-size: 0.8em;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: top center;
   text-align: center;
-  line-height: 120px;
-  height: 70px;
+  line-height: 140px;
+  height: 80px;
   width: 80px;
   margin: 0px 10px;
-  background-color: rgb(22, 108, 184);
 }
 
 .games {
@@ -59,9 +58,30 @@
 .search {
   display: flex;
   flex-direction: row;
-  background-color: deeppink;
+  margin-top: 57px;
+  margin-left: 10px;
 }
 
 .form {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
   background-color: rgb(255, 204, 0);
+  padding: 2px;
+  margin-left: 20px;
+}
+
+.search-input {
+  border: none;
+  border-radius: 10px 6px 6px 10px;
+  width: 50vw;
+  background-image: url("../icons/keyboard.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+}
+
+.submit {
+  border: none;
+  background: none;
+  width: 85px;
 }

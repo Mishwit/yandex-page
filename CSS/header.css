@@ -4,17 +4,18 @@
   flex-direction: row;
   justify-content: flex-end;
   flex: 1;
-  background-color: aqua;
+  font-size: 0.8em;
+  font-weight: 400;
 }
 
 .lang {
-  margin-right: 20px;
-  background-color: chartreuse;
+  margin-right: 37px;
   height: 17px;
+  font-size: 85%;
+  line-height: 19px;
 }
 
 .login {
-  background-color: darkgoldenrod;
   background-image: url("../icons/login.svg");
   background-repeat: no-repeat;
   padding-left: 30px;

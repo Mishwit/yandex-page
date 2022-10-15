@@ -3,7 +3,8 @@
   align-items: center;
   flex-direction: column;
   flex: 1;
-  background-color: brown;
+  justify-content: space-between;
+  max-height: 100px;
 }
 
 .footer-top {
@@ -17,5 +18,14 @@
   display: flex;
   flex-direction: row;
   margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-top div {
+  margin-left: 35px;
+}
+
+.footer-bottom div {
   margin-left: 15px;
 }
