@@ -4,14 +4,13 @@
   flex-direction: row;
   justify-content: flex-end;
   flex: 1;
-  font-size: 0.8em;
   font-weight: 400;
 }
 
 .lang {
   margin-right: 35px;
   height: 17px;
-  font-size: 10.88px;
+  font-size: var(--FONT_SIZE_SMALL);
   line-height: 17px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -22,5 +21,5 @@
   background-repeat: no-repeat;
   padding-left: 30px;
   height: 17px;
-  font-size: 12.8px;
+  font-size: var(--FONT_SIZE_DEFAULT);
 }

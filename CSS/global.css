@@ -1,6 +1,17 @@
+:root {
+  --COLOR_GRAY: #999;
+  --COLOR_BLACK: #000;
+  --COLOR_RED: #cc0000;
+  --COLOR_YELLOW: #ffcc00;
+
+  --FONT_SIZE_SMALL: 10.88px;
+  --FONT_SIZE_DEFAULT: 12.8px;
+  --FONT_SIZE_BIG: 15.7568px;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12.8px;
+  font-size: var(--FONT_SIZE_DEFAULT);
 }
 
 .body {
