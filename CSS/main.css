@@ -12,12 +12,12 @@
 }
 
 .icon {
-  font-size: 0.8em;
+  font-size: 12.8px;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: top center;
   text-align: center;
-  line-height: 140px;
+  line-height: 137px;
   height: 80px;
   width: 80px;
   margin: 0px 10px;
@@ -55,33 +55,44 @@
   background-image: url("../icons/browser.svg");
 }
 
+.logo {
+  margin-top: -8px;
+  width: 107px;
+  height: 43px;
+}
+
 .search {
   display: flex;
   flex-direction: row;
-  margin-top: 57px;
-  margin-left: 10px;
+  margin-top: 59px;
+  margin-left: 96px;
 }
 
 .form {
+  height: 35px;
   display: flex;
   flex-direction: row;
   border-radius: 10px;
   background-color: rgb(255, 204, 0);
   padding: 2px;
-  margin-left: 20px;
+  margin-left: 19px;
+  margin-right: 15px;
 }
 
 .search-input {
   border: none;
-  border-radius: 10px 6px 6px 10px;
-  width: 50vw;
+  border-radius: 8px 4px 4px 8px;
+  width: 758px;
   background-image: url("../icons/keyboard.svg");
   background-repeat: no-repeat;
-  background-position: right 15px center;
+  background-position: right 11px top 10px;
 }
 
 .submit {
   border: none;
   background: none;
-  width: 85px;
+  width: 84px;
+  font-size: 15.7568px;
+  padding-top: 0;
+  padding-left: 9px;
 }
