@@ -12,6 +12,8 @@
 }
 
 .icon {
+  color: var(--COLOR_BLACK);
+  text-decoration: none;
   font-size: var(--FONT_SIZE_DEFAULT);
   overflow: hidden;
   background-repeat: no-repeat;
@@ -21,6 +23,10 @@
   height: 80px;
   width: 80px;
   margin: 0px 10px;
+}
+
+.icon:hover {
+  color: var(--COLOR_RED);
 }
 
 .games {
